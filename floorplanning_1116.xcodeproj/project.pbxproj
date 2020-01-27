@@ -25,6 +25,18 @@
 /* Begin PBXFileReference section */
 		AA130E10237FCB490081122F /* floorplanning_1116 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = floorplanning_1116; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA130E13237FCB490081122F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AA130E1A237FD1D10081122F /* n100.nets */ = {isa = PBXFileReference; lastKnownFileType = text; path = n100.nets; sourceTree = "<group>"; };
+		AA130E1C237FD1D10081122F /* n100.blocks */ = {isa = PBXFileReference; lastKnownFileType = text; path = n100.blocks; sourceTree = "<group>"; };
+		AAABCC0723833600009BE237 /* n100.pl */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = n100.pl; sourceTree = "<group>"; };
+		AAABCC082383360D009BE237 /* n100.output */ = {isa = PBXFileReference; lastKnownFileType = text; path = n100.output; sourceTree = "<group>"; };
+		AAE632602388D12E0080F47E /* n200.blocks */ = {isa = PBXFileReference; lastKnownFileType = text; path = n200.blocks; sourceTree = "<group>"; };
+		AAE632612388D12E0080F47E /* n200.nets */ = {isa = PBXFileReference; lastKnownFileType = text; path = n200.nets; sourceTree = "<group>"; };
+		AAE632622388D12E0080F47E /* n200.pl */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = n200.pl; sourceTree = "<group>"; };
+		AAE632632388D14B0080F47E /* n200.output */ = {isa = PBXFileReference; lastKnownFileType = text; path = n200.output; sourceTree = "<group>"; };
+		AAE632642388D1540080F47E /* n300.pl */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = n300.pl; sourceTree = "<group>"; };
+		AAE632652388D1540080F47E /* n300.blocks */ = {isa = PBXFileReference; lastKnownFileType = text; path = n300.blocks; sourceTree = "<group>"; };
+		AAE632662388D1540080F47E /* n300.nets */ = {isa = PBXFileReference; lastKnownFileType = text; path = n300.nets; sourceTree = "<group>"; };
+		AAE632672388D15E0080F47E /* n300.output */ = {isa = PBXFileReference; lastKnownFileType = text; path = n300.output; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,18 @@
 			isa = PBXGroup;
 			children = (
 				AA130E13237FCB490081122F /* main.cpp */,
+				AA130E1C237FD1D10081122F /* n100.blocks */,
+				AA130E1A237FD1D10081122F /* n100.nets */,
+				AAABCC0723833600009BE237 /* n100.pl */,
+				AAABCC082383360D009BE237 /* n100.output */,
+				AAE632602388D12E0080F47E /* n200.blocks */,
+				AAE632612388D12E0080F47E /* n200.nets */,
+				AAE632622388D12E0080F47E /* n200.pl */,
+				AAE632632388D14B0080F47E /* n200.output */,
+				AAE632652388D1540080F47E /* n300.blocks */,
+				AAE632662388D1540080F47E /* n300.nets */,
+				AAE632642388D1540080F47E /* n300.pl */,
+				AAE632672388D15E0080F47E /* n300.output */,
 			);
 			path = floorplanning_1116;
 			sourceTree = "<group>";
